@@ -16,7 +16,7 @@ This project demonstrates how to build a serverless data pipeline using **Apache
 - Serverless, fully managed execution on Dataflow.
 
 
-## **Data Flow**
+##**Data Flow**
     - Raw data is stored in **Google Cloud Storage (GCS)**.
     - An **Apache Beam pipeline** processes the data, applying transformations and quality checks.
     - The pipeline runs on **Google Cloud Dataflow**, a fully managed service for executing Apache Beam pipelines.
