@@ -1,0 +1,5 @@
+# Delete the GCS bucket
+gsutil rm -r gs://YOUR_BUCKET_NAME/
+
+# Delete BigQuery datasets and tables
+bq rm -r -f -d YOUR_PROJECT_ID:movie_data

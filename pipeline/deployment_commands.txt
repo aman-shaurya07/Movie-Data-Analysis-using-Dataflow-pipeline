@@ -1,0 +1,10 @@
+# Command to deploy the Dataflow job
+python3 dataflow_pipeline.py \
+    --runner=DataflowRunner \
+    --project=YOUR_PROJECT_ID \
+    --region=us-central1 \
+    --temp_location=gs://YOUR_BUCKET_NAME/temp \
+    --staging_location=gs://YOUR_BUCKET_NAME/staging \
+    --experiments=use_runner_v2
+
+# Note: Replace placeholders (YOUR_PROJECT_ID, YOUR_BUCKET_NAME) with actual values.
